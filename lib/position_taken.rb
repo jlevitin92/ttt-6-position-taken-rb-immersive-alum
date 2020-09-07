@@ -2,7 +2,8 @@
 include binding.pry
 
 def position_taken?(board, index)
-  binding.binding.pry
+  binding.pry
+  
   if board[index] == "X" or "O"
     true
     if board[index] == " " or ""
