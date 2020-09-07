@@ -2,9 +2,9 @@
 
 def position_taken?(board, index)
   number = index - 1
-  num = board[number]
+  board[number]
 
-  if num == "X" or "O"
+  if board[number] == "X" or "O"
     true
     if num == " " or ""
       false
