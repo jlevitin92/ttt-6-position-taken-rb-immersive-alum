@@ -2,6 +2,7 @@
 
 def position_taken?(board, index)
   number = index - 1
+  num = board[number]
 
   if num == "X" or "O"
     true
